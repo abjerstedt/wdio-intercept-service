@@ -38,6 +38,15 @@
     deepmerge "^2.0.1"
     glob "^7.1.2"
 
+"@wdio/config@^5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-5.6.0.tgz#db0b9b11db607e2baa5118a5fb38073836b122d0"
+  integrity sha512-NKoF+RcqYvNnQFNRYgPrp4xyOlqDIguTQxXpOERJfT/rvVhecqn1C5R162wKiH5qRtGQAXzaeeUfcJaqEa8IIA==
+  dependencies:
+    "@wdio/logger" "^5.6.0"
+    deepmerge "^2.0.1"
+    glob "^7.1.2"
+
 "@wdio/interface@^5.4.6":
   version "5.4.6"
   resolved "https://registry.yarnpkg.com/@wdio/interface/-/interface-5.4.6.tgz#d8a3b6a110ee9c5cf4b15e640b3ad5ab869bdf37"
@@ -61,6 +70,16 @@
   version "5.4.6"
   resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-5.4.6.tgz#9aba1bd218b8566837c1d337ebe76417904a1314"
   integrity sha512-SRuGKw0R7pMEO+BFawg4Gjn5GQoKaVsm1DE0Fg3k1a3m9UOFKS6XdrSAjJdBNjuZkP9mFrY7qZLtySE6KnVlng==
+  dependencies:
+    chalk "^2.3.0"
+    loglevel "^1.6.0"
+    loglevel-plugin-prefix "^0.5.3"
+    strip-ansi "^4.0.0"
+
+"@wdio/logger@^5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-5.6.0.tgz#850036465e596d7f1ea6deb5a8af198d5b729464"
+  integrity sha512-cVgxQnM/tEQRi+4DunMdCIrC8XMGYS0S9BYGGwTM9DMXTYV0WuaN8jG4AD/1AyGKieT7xXRpE+X9l4ciqPUfmg==
   dependencies:
     chalk "^2.3.0"
     loglevel "^1.6.0"
@@ -111,13 +130,13 @@
     chalk "^2.3.2"
     pretty-ms "^3.1.0"
 
-"@wdio/sync@^5.4.14":
-  version "5.4.14"
-  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-5.4.14.tgz#800214254b29a29625a2612ecc4a1c2b6b285bf2"
-  integrity sha512-uGtIEoeUqWkmleP6nHZt+maRxnbtR+Q04f1HV82fq0j0LZ8FiMHs9PeNHvzi4H5ihI1D99neN5JOnGyUZBf62Q==
+"@wdio/sync@^5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-5.6.0.tgz#84805f8ffc9e16e74abd0ecc58075e8c6835d89e"
+  integrity sha512-KKt+1YOicY07YRwSLd1X/tevPgxX0rTGf8ebpwnyN84BRB80QyYY670jiikfio2wHhNIqgdmifWI5cRfYBrjVg==
   dependencies:
-    "@wdio/config" "^5.4.14"
-    "@wdio/logger" "^5.4.6"
+    "@wdio/config" "^5.6.0"
+    "@wdio/logger" "^5.6.0"
     fibers "^3.1.1"
 
 abbrev@1:
