@@ -38,6 +38,15 @@
     deepmerge "^2.0.1"
     glob "^7.1.2"
 
+"@wdio/config@^5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-5.6.0.tgz#db0b9b11db607e2baa5118a5fb38073836b122d0"
+  integrity sha512-NKoF+RcqYvNnQFNRYgPrp4xyOlqDIguTQxXpOERJfT/rvVhecqn1C5R162wKiH5qRtGQAXzaeeUfcJaqEa8IIA==
+  dependencies:
+    "@wdio/logger" "^5.6.0"
+    deepmerge "^2.0.1"
+    glob "^7.1.2"
+
 "@wdio/interface@^5.4.6":
   version "5.4.6"
   resolved "https://registry.yarnpkg.com/@wdio/interface/-/interface-5.4.6.tgz#d8a3b6a110ee9c5cf4b15e640b3ad5ab869bdf37"
@@ -67,14 +76,24 @@
     loglevel-plugin-prefix "^0.5.3"
     strip-ansi "^4.0.0"
 
-"@wdio/mocha-framework@^5.4.14":
-  version "5.4.14"
-  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-5.4.14.tgz#8f9970583e1265a1284bfd287fba8014057eb36f"
-  integrity sha512-Y/RbZw2U1EAEhAkTrLrTQUyMmQnkaXFgXH//M5yDNk2Gg2C/2uh8f0Nv7ibQ9N7p8C1ng6k1AFLsZQNWVujanA==
+"@wdio/logger@^5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-5.6.0.tgz#850036465e596d7f1ea6deb5a8af198d5b729464"
+  integrity sha512-cVgxQnM/tEQRi+4DunMdCIrC8XMGYS0S9BYGGwTM9DMXTYV0WuaN8jG4AD/1AyGKieT7xXRpE+X9l4ciqPUfmg==
+  dependencies:
+    chalk "^2.3.0"
+    loglevel "^1.6.0"
+    loglevel-plugin-prefix "^0.5.3"
+    strip-ansi "^4.0.0"
+
+"@wdio/mocha-framework@^5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-5.6.0.tgz#ba953bd12ed83f7473663277bf3eaf914ef4ca91"
+  integrity sha512-Zu3S53SG7k7o7lH52PaY7QhuDJ3be4954wQ6kBiqezhUDCnn4Z2jvAEsAJpjyORFZJOMvfhZTYhGtAglP1JLyg==
   dependencies:
     "@types/mocha" "^5.2.5"
-    "@wdio/config" "^5.4.14"
-    "@wdio/logger" "^5.4.6"
+    "@wdio/config" "^5.6.0"
+    "@wdio/logger" "^5.6.0"
     mocha "^6.0.0-1"
 
 "@wdio/repl@^5.4.14":
